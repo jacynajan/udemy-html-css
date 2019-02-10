@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,40 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Hotel Boston | Welcome</title>
 </head>
+
 <body>
     <header>
         <nav id="navbar">
-            <h1 class="logo"> <a href="index.html">Hotel Boston</a></h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Hotel Boston</a></h1>
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1><span class="primary">Enjoy</span> Your Stay</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, adipisci nemo iusto
+                        asperiores officia ea eveniet odit!</p>
+                    <a class='btn' href="about.html">About Our Hotel</a>
+                </div>
+            </div>
+        </div>
     </header>
+    <section id='home-info' class="bg-dark">
+        <div class="info-img"></div>
+        <div class="info-content">
+            <h2><span class="primary">The History</span> Of Our Hotel</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi laborum earum officiis qui labore in
+                nesciunt voluptatem at sapiente nobis.</p>
+            <a href="about.html" class="btn btn-light">Read More</a>
+        </div>
+
+    </section>
 </body>
+
 </html>
